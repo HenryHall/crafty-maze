@@ -12,10 +12,10 @@
         connectNodes: function (start, end) {
             // without modification, these starting attributes would draw a square in the center of the
             // starting cell. this could be changed to draw an arrow, for example, in the direct of "end"
-            var centerX = start.x + (start.radius / 2),
+            var centerX = start.x + (start.radius  / 2),
                 centerY = start.y + (start.radius / 2),
-                width = Math.ceil(start.radius / 6),
-                height = Math.ceil(start.radius/ 6),
+                width = Math.ceil(start.radius  / 6),
+                height = Math.ceil(start.radius / 6),
                 t;
             // cells are aligned as such:
             // | x, y |

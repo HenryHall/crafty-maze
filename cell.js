@@ -13,7 +13,6 @@
                 green = Math.floor(Math.random() * 200),
                 blue = Math.floor(Math.random() * 200);
             this.color = 'rgb(' + red + ',' + green + ',' + blue + ')';
-            //this.color             = 'rgb(0,0,0)';
             this.walls             = {};
             this.left              = true;
             this.top               = true;
